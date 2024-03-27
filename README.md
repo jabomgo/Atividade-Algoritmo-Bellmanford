@@ -1,0 +1,1 @@
+Grupo da atividade: [Jonathan Neves](https://github.com/jabomgo), [Thiago Ruan](https://github.com/ThiagoRuan), [Thiago Raimundo](https://github.com/thiagodasillva) e [Cidy Wallace](https://github.com/CidyWallace).
