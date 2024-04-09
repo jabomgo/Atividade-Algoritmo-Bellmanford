@@ -24,7 +24,7 @@ public class BellmanFord {
         }
         for (i=0; i<V; ++i){
             if(hasPathTo(i)){
-                System.out.printf("Rota de %d a %d (%5.2f)", s, i, distTo[i]);
+                System.out.printf("Rota de %d a %d (Distancia: %5.2f)", s, i, distTo[i]);
                 printPathTo(i);
                 System.out.println();
             }
@@ -56,7 +56,7 @@ public class BellmanFord {
             return;
         }
         printPathTo(this.edgeTo[v]);
-        System.out.print(" - > ");
+        System.out.print(" -> ");
         System.out.print(v);
     }
     public void Inicializa(){
